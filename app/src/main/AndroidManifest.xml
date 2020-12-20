@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.electrogoods">
+
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.kategori.DaftarIklanKategori"
+            android:theme="@style/CustomThemeToolbar">
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value=".DetailIklan" />-->
+        </activity>
+        <activity android:name="Tab1FragmentAds">
+        </activity>
+        <activity android:name=".ui.kategori.GadgetSell">
+
+        </activity>
+        <activity android:name=".ui.kategori.OfficeSell">
+
+        </activity>
+        <activity android:name=".ui.kategori.HouseSell">
+
+        </activity>
+        <activity
+            android:name=".ui.kategori.Household"
+            android:label="HOUSEHOLD" />
+        <activity
+            android:name=".ui.kategori.Office"
+            android:label="OFFICE" />
+        <activity
+            android:name=".ui.kategori.Gadget"
+            android:label="GADGET" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_place_api" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Categories"
+            android:label="@string/title_activity_categories"></activity>
+        <activity
+            android:name=".Explore"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Location"
+            android:label="LOCATION" />
+        <activity
+            android:name=".DaftarIklan">
+        </activity>
+        <activity
+            android:name=".DaftarIklan3">
+        </activity>
+        <activity
+            android:name=".DetailIklan" />
+        <activity
+            android:name=".DetailIlkan1"
+            android:label="@string/title_activity_detail_ilkan1" />
+        <activity
+            android:name=".Filter"
+            android:label="@string/activity_title_filter" />
+        <activity
+            android:name=".Notifications"
+            android:label="NOTIFICATIONS"
+            android:parentActivityName=".Explore">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Explore" />
+        </activity>
+        <activity
+            android:name=".Selling7"
+            android:label="" />
+        <activity
+            android:name=".Selling6"
+            android:label="REVIEW YOUR DETAILS" />
+        <activity
+            android:name=".Selling5"
+            android:label="CONFIRM YOUR LOCATION">
+
+        </activity>
+        <activity
+            android:name=".Selling4"
+            android:label="SET A PRICE" />
+        <activity
+            android:name=".Selling3"
+            android:label="UPLOAD YOUR PHOTOS" />
+        <activity
+            android:name=".Sell2"
+            android:label="INCLUDE SOME DETAILS" />
+        <activity android:name=".Login" />
+        <activity android:name=".loginwphone2" />
+        <activity android:name=".loginwphone" />
+        <activity android:name=".sellmyads" />
+        <activity android:name=".Myadsedit1" />
+        <activity android:name=".myadsedit2" />
+        <activity android:name=".myadsedit3" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Settings4" />
+
+        <activity android:name=".loginwgoogle">
+        </activity>
+
+    </application>
+
+</manifest>

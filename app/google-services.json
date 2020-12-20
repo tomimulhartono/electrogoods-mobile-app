@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "152243441223",
+    "firebase_url": "https://electrogoods-e2089.firebaseio.com",
+    "project_id": "electrogoods-e2089",
+    "storage_bucket": "electrogoods-e2089.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152243441223:android:67e6fb609a99bf2c34ab62",
+        "android_client_info": {
+          "package_name": "com.example.electrogoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152243441223-b3q262h7u5tvd5icr0c7t9o787ota631.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.electrogoods",
+            "certificate_hash": "ac78bbb4566b578c9443bdf207eeae813865b47d"
+          }
+        },
+        {
+          "client_id": "152243441223-7cuo5u8ea407bi5uc5u52e7jle2meisk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD4bbxN59nZKN_rDic4-HCc_ORb4n_sZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152243441223-7cuo5u8ea407bi5uc5u52e7jle2meisk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

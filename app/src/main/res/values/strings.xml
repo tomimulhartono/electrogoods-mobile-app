@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Electro Goods</string>
+
+    <string name="activity_title_location">LOCATION</string>
+
+    <string name="activity_title_filter">FILTERS</string>
+    <string name="activity_title_explore"></string>
+    <string name="apply">Apply</string>
+    <string name="title_activity_explore">Explore</string>
+    <string name="title_home">Explore</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_sell">Sell</string>
+    <string name="title_ads">My Ads</string>
+    <string name="title_acc">My Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="harga">Harga</string>
+    <string name="rp">Rp.</string>
+    <string name="rupiah">Rp.</string>
+    <string name="to">To</string>
+    <string name="title_activity_categories">CATEGORIES</string>
+    <string name="describe_product">Describe product*</string>
+    <string name="masukan_merk_barang_yang_anda_jual">*masukan merk barang yang anda jual</string>
+    <string name="merk">Merk</string>
+    <string name="description">Description</string>
+    <string name="masuakan_deskripsi_iklan_anda">*masuakan deskripsi iklan anda</string>
+    <string name="merk1">Merk*</string>
+    <string name="ad_tittle">Ad tittle*</string>
+    <string name="masukan_judul_iklan_anda">*masukan judul iklan anda</string>
+    <string name="tittle">Tittle</string>
+    <string name="next">NEXT</string>
+
+
+    <string name="smartphone">smartphone</string>
+    <string name="audio">audio</string>
+    <string name="laptop">laptop</string>
+    <string name="save">SAVE</string>
+    <string name="please_enter_your_new_password">Please enter your new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="new_password">New password</string>
+    <string name="what_are_you_offering">WHAT ARE YOU OFFERING?</string>
+    <string name="gadget">GADGET</string>
+    <string name="office">OFFICE</string>
+    <string name="household">HOUSEHOLD</string>
+    <string name="current_password">Current password</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO1</string>
+    <string name="todo2">TODO2</string>
+    <string name="gadegt">gadegt</string>
+    <string name="menu_office">menu_office</string>
+    <string name="menu_household">menu_household</string>
+
+
+    <string name="Current_password">Current password</string>
+    <string name="New_password">New password</string>
+    <string name="Confirm_new_password">Confirm new password</string>
+    <string name="Walkthrough">Walkthrough</string>
+    <string name="continue_with_phone">CONTINUE WITH PHONE</string>
+    <string name="continue_with_google">CONTINUE WITH GOOGLE</string>
+    <string name="background_color_login">background color login</string>
+    <string name="nav_home">Explore</string>
+    <string name="hello">hello</string>
+    <string name="current_location">Current Location</string>
+    <string name="chats">CHATS</string>
+    <string name="my_ads">MY ADS</string>
+    <string name="tab1_chat">TAB1</string>
+    <string name="tab2_chat">TAB2</string>
+    <string name="tab3_chat">TAB3</string>
+    <string name="tab2_ads">TAB2</string>
+    <string name="tab1_ads">TAB1</string>
+    <string name="textview">TextView</string>
+    <string name="username">Lulufhp</string>
+    <string name="member">member since Feb 2017</string>
+    <string name="follow_btn">FOLLOW</string>
+    <string name="jml_follower">2.173</string>
+    <string name="jml_follow">1.588</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="textViewJumlahFollower">2.173</string>
+    <string name="textViewFollower">Followers</string>
+    <string name="textViewJumlahFollow">1.588</string>
+    <string name="textViewFollow">Following</string>
+    <string name="textViewUsername">Lulufhp</string>
+    <string name="JumlahHarga">Rp.</string>
+
+    <string name="google_place_api">AIzaSyDyjyzM57fBDvNivQKeMuiObI_2SQQxGx0</string>
+    <string name="title_activity_detail_ilkan1">detail_iklan1</string>
+    <string name="textviewCat">TextView</string>
+    <string name="clicknext">clickNext</string>
+    <string name="find_electronics_hint">Find Electronics</string>
+    <string name="notificonhome">notifIcon</string>
+    <string name="filter_txt_btn">FILTER</string>
+    <string name="statusString">member since Feb 2017</string>
+    <string name="seeString">SEE PROFILE</string>
+    <string name="chatString">CHAT</string>
+    <string name="callString">CALL</string>
+    <string name="hargaString">RP. XXX,XXX,XXX</string>
+    <string name="judulString">[Judul Iklan]</string>
+    <string name="lokasiString">[Lokasi Iklan]</string>
+    <string name="descriptionString">Description</string>
+    <string name="isiString">[Isi]</string>
+    <string name="iconprofiledetailiklanString">iconprofiledetailiklan</string>
+    <string name="thumbnaildetailiklanString">thumbnaildetailiklan</string>
+    <string name="settings">SHARE PROFILE</string>
+    <string name="report">REPORT USER</string>
+    <string name="action_contact_message">Repot User</string>
+    <string name="action_settings_message">Share Profile</string>
+</resources>

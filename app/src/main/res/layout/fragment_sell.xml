@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/household"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="18dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/gadgetImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="184dp"
+        android:layout_height="163dp"
+        android:contentDescription="@string/gadget"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/gadget" />
+
+    <ImageView
+        android:id="@+id/officeImageView"
+        android:layout_below="@+id/gadgetTextView"
+        android:layout_width="184dp"
+        android:layout_height="162dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/menu_office"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/office" />
+
+    <ImageView
+        android:id="@+id/householdImageView"
+        android:layout_below="@+id/officeTextView"
+        android:layout_width="184dp"
+        android:layout_height="156dp"
+        android:contentDescription="@string/menu_household"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.525"
+        app:srcCompat="@drawable/household" />
+
+    <TextView
+        android:id="@+id/gadgetTextView"
+        android:layout_below="@+id/gadgetImageView"
+        android:layout_width="73dp"
+        android:layout_height="31dp"
+        android:text="@string/gadget"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <TextView
+        android:id="@+id/officeTextView"
+        android:layout_below="@+id/officeImageView"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:text="@string/office"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/householdTextView"
+        android:layout_below="@+id/householdImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="@string/household"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+</RelativeLayout>

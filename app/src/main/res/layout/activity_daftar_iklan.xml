@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarIklan">
+
+    <ImageView
+        android:id="@+id/inifoto"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/orang" />
+
+    <TextView
+        android:id="@+id/textViewJumlahFollower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:text="@string/jml_follower"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewJumlahFollow"
+        app:layout_constraintStart_toEndOf="@+id/textViewFollow"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewJumlahFollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/jml_follow"
+        app:layout_constraintStart_toEndOf="@+id/inifoto"
+        app:layout_constraintTop_toTopOf="@+id/inifoto"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inifoto"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text="member since Feb 2017"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUsername"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewFollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/following"
+        app:layout_constraintStart_toEndOf="@+id/inifoto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewJumlahFollow"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewFollower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:text="@string/followers"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewFollow"
+        app:layout_constraintStart_toEndOf="@+id/textViewFollow"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnfollow"
+        android:layout_width="216dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:background="#00BCD4"
+        android:text="@string/follow_btn"
+        android:textColor="#131414"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/inifoto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFollow"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
